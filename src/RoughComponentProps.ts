@@ -55,8 +55,8 @@ export interface PathProps extends Options {
 }
 
 export interface TextProps extends Options {
-    x: number;
-    y: number;
-    size?: string;
-    text: string;
+	x: number;
+	y: number;
+	size?: string;
+	text: string;
 }

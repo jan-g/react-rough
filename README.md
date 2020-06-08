@@ -11,12 +11,24 @@
   </p>
 </p>
 
+# Add a rudimentary `Text` element
+
+This isn't very clever - mostly because I don't know TypeScript and because the underlying
+Rough.JS has a whole bunch of options baked into it that don't really apply to text.
+
+Anyway:
+
+    <Text x={..} y={..} size="10px" /* optional */ text="hello world" />
+
 ## Installation
 
 ```sh
-- npm add react-rough
-- npm add roughjs
+- npm add jan-g/react-rough#text
+- npm add jan-g/roughjs#text
 ```
+
+You'll probably want to add a `font-family` to the `svg` element in your stylesheet; this does
+none of that.
 
 ### Render a Rectangle on a canvas element
 

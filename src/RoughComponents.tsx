@@ -175,7 +175,8 @@ Path.displayName = 'Path';
 
 export const Text: FC<Props.TextProps> = memo(({ x, y, text, ...props }) => {
 	const renderProps = React.useCallback(
-		(rc: RoughRenderer) => rc.text(x, y, text, props.size ? { size: props.size } : undefined),
+		(rc: RoughRenderer) =>
+			rc.text(x, y, text, props.size ? { size: props.size } : undefined),
 		[x, y, text, props]
 	);
 
