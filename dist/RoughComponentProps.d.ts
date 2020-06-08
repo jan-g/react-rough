@@ -44,3 +44,9 @@ export interface CurveProps extends Options {
 export interface PathProps extends Options {
     d: string;
 }
+export interface TextProps extends Options {
+    x: number;
+    y: number;
+    size?: string;
+    text: string;
+}

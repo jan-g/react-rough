@@ -10,3 +10,4 @@ export declare const Polygon: FC<Props.PolygonProps>;
 export declare const Arc: FC<Props.ArcProps>;
 export declare const Curve: FC<Props.CurveProps>;
 export declare const Path: FC<Props.PathProps>;
+export declare const Text: FC<Props.TextProps>;
